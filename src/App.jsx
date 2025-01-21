@@ -8,7 +8,7 @@ import Title from './components/Title'
 const App = () => {
   return (
     <div className='relative'>
-      <div className='max-w-rip container mx-auto min-h-screen bg-black pb-6'>
+      <div className='max-w-rip container mx-auto h-screen min-h-screen bg-black pb-6'>
         <div className='dot flex min-h-dvh w-full flex-col items-center justify-start gap-12 bg-gray-950'>
           <div className='mx-4 mt-12 grid grid-cols-3 gap-4'>
             <Company className='col-span-3' />
@@ -18,7 +18,7 @@ const App = () => {
             <Clock className='col-span-1' />
             <Social />
           </div>
-          <div className='relative flex w-full items-center justify-center'>
+          <div className='relative mb-4 flex w-full items-center justify-center'>
             <p className='absolute left-[50%] top-0 -translate-x-1/2 italic text-white'>
               Powered by
             </p>
