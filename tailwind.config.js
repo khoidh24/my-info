@@ -8,8 +8,8 @@ export default {
       }
     },
     screens: {
-      md: { raw: '(min-height: 50vh)' }
-    }
-  },
-  plugins: []
+      rip: '768px'
+    },
+    plugins: []
+  }
 }

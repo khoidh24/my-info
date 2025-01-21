@@ -4,7 +4,7 @@ const Company = ({ className }) => {
       <img
         src='/logo/estuary.png'
         alt='Estuary Solutions'
-        className='w-[200px]'
+        className='h-auto w-[200px]'
       />
     </div>
   )

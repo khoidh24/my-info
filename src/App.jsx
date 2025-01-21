@@ -8,8 +8,8 @@ import Title from './components/Title'
 const App = () => {
   return (
     <div className='relative'>
-      <div className='container mx-auto min-h-screen max-w-md bg-black pb-6'>
-        <div className='dot flex min-h-screen w-full flex-col items-center justify-between bg-gray-950'>
+      <div className='max-w-rip container mx-auto min-h-screen bg-black pb-6'>
+        <div className='dot flex min-h-dvh w-full flex-col items-center justify-start gap-12 bg-gray-950'>
           <div className='mx-4 mt-12 grid grid-cols-3 gap-4'>
             <Company className='col-span-3' />
             <Avatar className='col-span-1' />
@@ -18,8 +18,8 @@ const App = () => {
             <Clock className='col-span-1' />
             <Social />
           </div>
-          <div className='relative my-8 flex w-full items-center justify-center'>
-            <p className='absolute left-[42%] top-0 italic text-white'>
+          <div className='relative flex w-full items-center justify-center'>
+            <p className='absolute left-[50%] top-0 -translate-x-1/2 italic text-white'>
               Powered by
             </p>
             <img
