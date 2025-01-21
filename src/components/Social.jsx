@@ -22,6 +22,15 @@ const Social = () => {
       domain: 'https://www.linkedin.com/in/'
     }
   ]
+
+  const CONTACT = {
+    gmail: 'hoangkhoi.duong@estuary.solutions',
+    phone: {
+      link: '0562249850',
+      mask: '+84 562 249 850'
+    }
+  }
+
   return (
     <>
       <div
@@ -35,11 +44,22 @@ const Social = () => {
         <p className='px-4 pb-4 text-sm font-bold'>Social Network</p>
       </div>
       <div className='card col-span-2 h-12 gap-8'>
-        <Mail />
+        <a
+          href={`mailto:${CONTACT.gmail}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Mail />
+        </a>
         <p>or</p>
-        <div className='flex items-center justify-center gap-2'>
-          <Phone size={20} /> <p className='font-bold'>+84 562 249 850</p>
-        </div>
+        <a
+          className='flex items-center justify-center gap-2'
+          href={`tel:${CONTACT.phone.link}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Phone size={20} /> <p className='font-bold'>{CONTACT.phone.mask}</p>
+        </a>
       </div>
       <div
         className='card z-10 col-span-3 -mt-4 flex-col gap-4'
