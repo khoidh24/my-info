@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         roboto: 'Roboto, sans-serif'
       }
+    },
+    screens: {
+      md: { raw: '(min-height: 50vh)' }
     }
   },
   plugins: []

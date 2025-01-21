@@ -41,7 +41,7 @@ const Social = () => {
           borderBottomLeftRadius: 0
         }}
       >
-        <p className='px-4 pb-4 text-sm font-bold'>Social Network</p>
+        <p className='px-4 text-center text-sm font-bold'>Social Network</p>
       </div>
       <div className='card col-span-2 h-12 gap-8'>
         <a
@@ -58,7 +58,7 @@ const Social = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <Phone size={20} /> <p className='font-bold'>{CONTACT.phone.mask}</p>
+          <Phone />
         </a>
       </div>
       <div
